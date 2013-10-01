@@ -13,9 +13,11 @@
 
 <body>
 
-	<section id="wmkSectionOne">
-		<h1>Community</h1>
-	</section><!-- #wmkSectionOne -->
+	<div id="wmkSectionOne">
+		<div class="community">
+			<h1>Community</h1>
+		</div><!-- #community -->
+	</div><!-- #wmkSectionOne -->
 
 	<div id="wmkSectionTwo">
 		<h1>Pathways</h1>
@@ -32,7 +34,10 @@
 	<![endif]-->
 
 	<script type="text/javascript">
-	var s = skrollr.init({
+	var scroller = skrollr.init({
+		forceHeight: false,
+		smoothScrolling: true,
+		smoothScrollingDuration: 800
 	});
 	</script>
 </body>
