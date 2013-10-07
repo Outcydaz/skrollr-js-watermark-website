@@ -13,19 +13,36 @@
 
 <body>
 
-	<div id="wmkSectionOne">
-		<div class="community">
+	<section id="wmkSectionOne">
+		<div class="headLiner">
 			<h1>Community</h1>
 		</div><!-- #community -->
-	</div><!-- #wmkSectionOne -->
 
-	<div id="wmkSectionTwo">
-		<h1>Pathways</h1>
-	</div><!-- #wmkSectionOne -->
+		<div class="flowNav">
+			<a href="#wmkSectionTwo">scroll down</a>	
+		</div><!-- #flowNav" -->	
 
-	<div id="wmkSectionThree">
-		<h1>Central Plaza</h1>
-	</div><!-- #wmkSectionOne -->
+	</section><!-- #wmkSectionOne -->
+
+	<section id="wmkSectionTwo">
+		<div class="headLiner">
+			<h1 data-0="opacity:0; transform:scale(1,1);" data-700="opacity:1; transform:scale(1.5,1.5);">Pathways</h1>
+		</div>	
+
+		<div class="boxOne">
+			<img src="images/staten.png" class="staten">
+		</div>
+
+		<div class="boxTwo">
+			<img src="images/face.png" class="face" data-800="left:45%;bottom:100%;" data-1400="bottom:0%;" style="left: 45%; bottom: 65%; ">
+		</div>	
+	</section><!-- #wmkSectionOne -->
+
+	<section id="wmkSectionThree">
+		<div class="headLiner">
+			<h1 data-700="opacity:0; transform:scale(1,1);" data-1400="opacity:1; transform:scale(1.5,1.5);">Central Plaza</h1>
+		</div>
+	</section><!-- #wmkSectionOne -->
 
 	<script type="text/javascript" src="js/skrollr.min.js"></script>
 
@@ -35,9 +52,6 @@
 
 	<script type="text/javascript">
 	var scroller = skrollr.init({
-		forceHeight: false,
-		smoothScrolling: true,
-		smoothScrollingDuration: 800
 	});
 	</script>
 </body>
